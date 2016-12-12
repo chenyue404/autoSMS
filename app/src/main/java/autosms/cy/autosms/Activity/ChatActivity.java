@@ -1,7 +1,6 @@
 package autosms.cy.autosms.Activity;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
@@ -20,7 +19,7 @@ import autosms.cy.autosms.Bean.SmsBean;
 import autosms.cy.autosms.Bean.SmsListBean;
 import autosms.cy.autosms.R;
 
-public class ChatActivity extends AppCompatActivity {
+public class ChatActivity extends BaseActivity {
 
     public final static String SMSBEANLIST = "SMSBEANLIST";
     private ArrayList<SmsBean> smsBeenList = new ArrayList<>();
