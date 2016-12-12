@@ -3,4 +3,6 @@
     <string name="action_settings">Settings</string>
     <string name="send">发送</string>
     <string name="input_msg">输入信息</string>
+    <string name="no_Permissions">不给权限用尼玛个锤子</string>
+
 </resources>

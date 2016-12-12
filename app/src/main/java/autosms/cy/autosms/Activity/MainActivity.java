@@ -105,18 +105,9 @@ public class MainActivity extends AppCompatActivity {
             ActivityCompat.requestPermissions(this,
                     permissionStr,
                     MY_PERMISSIONS_REQUEST_CALL_PHONE);
-
-            // Should we show an explanation?
             if (ActivityCompat.shouldShowRequestPermissionRationale(this,
                     Manifest.permission.READ_CONTACTS)) {
-                // Show an expanation to the user *asynchronously* -- don't block
-                // this thread waiting for the user's response! After the user
-                // sees the explanation, try again to request the permission.
             } else {
-                // No explanation needed, we can request the permission.
-                // MY_PERMISSIONS_REQUEST_READ_CONTACTS is an
-                // app-defined int constant. The callback method gets the
-                // result of the request.
             }
         } else {
             getdata();
@@ -124,20 +115,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[]
+            grantResults) {
 
         if (requestCode == MY_PERMISSIONS_REQUEST_CALL_PHONE) {
-            if (Arrays.binarySearch(grantResults, PackageManager.PERMISSION_GRANTED) != -1) {
-                Toast.makeText(MainActivity.this, "不给权限用尼玛个锤子", Toast.LENGTH_SHORT).show();
+            if (Arrays.binarySearch(grantResults, PackageManager.PERMISSION_DENIED) != -1) {
+                Toast.makeText(MainActivity.this, getString(R.string.no_Permissions), Toast
+                        .LENGTH_SHORT).show();
             } else {
                 getdata();
             }
-//            if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-//                Toast.makeText(MainActivity.this, "成功失败", Toast.LENGTH_SHORT).show();
-//            } else {
-//                // Permission Denied
-//                Toast.makeText(MainActivity.this, "授权失败", Toast.LENGTH_SHORT).show();
-//            }
             return;
         }
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
