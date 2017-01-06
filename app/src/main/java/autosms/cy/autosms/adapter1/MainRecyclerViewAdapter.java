@@ -1,4 +1,4 @@
-package autosms.cy.autosms.Adapter;
+package autosms.cy.autosms.adapter1;
 
 import android.content.Context;
 import android.content.Intent;
@@ -12,8 +12,8 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import autosms.cy.autosms.Activity.ChatActivity;
-import autosms.cy.autosms.Bean.SmsListBean;
+import autosms.cy.autosms.activity1.ChatActivity;
+import autosms.cy.autosms.bean1.SmsListBean;
 import autosms.cy.autosms.R;
 
 /**

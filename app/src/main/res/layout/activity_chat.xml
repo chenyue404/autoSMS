@@ -4,7 +4,7 @@
     android:id="@+id/activity_chat"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.ChatActivity">
+    tools:context=".activity1.ChatActivity">
 
     <include layout="@layout/custom_tool_bar_layout" />
 

@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".activity.MainActivity"
+            android:name=".activity1.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -22,10 +22,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.ChatActivity"
+            android:name=".activity1.ChatActivity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".activity.SettingActivity"
+            android:name=".activity1.SettingActivity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
 
 

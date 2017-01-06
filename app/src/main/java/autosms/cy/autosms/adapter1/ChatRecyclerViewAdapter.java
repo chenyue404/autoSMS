@@ -1,4 +1,4 @@
-package autosms.cy.autosms.Adapter;
+package autosms.cy.autosms.adapter1;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import autosms.cy.autosms.Bean.SmsBean;
+import autosms.cy.autosms.bean1.SmsBean;
 import autosms.cy.autosms.R;
 
 /**

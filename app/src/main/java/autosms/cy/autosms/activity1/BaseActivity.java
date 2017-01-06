@@ -1,4 +1,4 @@
-package autosms.cy.autosms.Activity;
+package autosms.cy.autosms.activity1;
 
 import android.support.v7.app.AppCompatActivity;
 

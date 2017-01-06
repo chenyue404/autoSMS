@@ -1,4 +1,4 @@
-package autosms.cy.autosms.Activity;
+package autosms.cy.autosms.activity1;
 
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -14,9 +14,9 @@ import android.widget.RelativeLayout;
 import java.util.ArrayList;
 import java.util.Collections;
 
-import autosms.cy.autosms.Adapter.ChatRecyclerViewAdapter;
-import autosms.cy.autosms.Bean.SmsBean;
-import autosms.cy.autosms.Bean.SmsListBean;
+import autosms.cy.autosms.adapter1.ChatRecyclerViewAdapter;
+import autosms.cy.autosms.bean1.SmsBean;
+import autosms.cy.autosms.bean1.SmsListBean;
 import autosms.cy.autosms.R;
 
 public class ChatActivity extends BaseActivity {

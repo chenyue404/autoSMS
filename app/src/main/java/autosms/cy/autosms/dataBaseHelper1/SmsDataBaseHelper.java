@@ -1,4 +1,4 @@
-package autosms.cy.autosms.DataBaseHelper;
+package autosms.cy.autosms.dataBaseHelper1;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -14,8 +14,8 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import autosms.cy.autosms.Bean.SmsBean;
-import autosms.cy.autosms.Bean.SmsListBean;
+import autosms.cy.autosms.bean1.SmsBean;
+import autosms.cy.autosms.bean1.SmsListBean;
 
 /**
  * Created by chenyue on 2016/9/7 0007.

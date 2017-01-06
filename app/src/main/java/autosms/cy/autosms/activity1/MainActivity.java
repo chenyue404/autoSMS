@@ -1,4 +1,4 @@
-package autosms.cy.autosms.Activity;
+package autosms.cy.autosms.activity1;
 
 import android.Manifest;
 import android.app.ProgressDialog;
@@ -19,10 +19,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import autosms.cy.autosms.Adapter.MainRecyclerViewAdapter;
-import autosms.cy.autosms.Bean.SmsBean;
-import autosms.cy.autosms.Bean.SmsListBean;
-import autosms.cy.autosms.DataBaseHelper.SmsDataBaseHelper;
+import autosms.cy.autosms.adapter1.MainRecyclerViewAdapter;
+import autosms.cy.autosms.bean1.SmsBean;
+import autosms.cy.autosms.bean1.SmsListBean;
+import autosms.cy.autosms.dataBaseHelper1.SmsDataBaseHelper;
 import autosms.cy.autosms.R;
 
 public class MainActivity extends BaseActivity {
