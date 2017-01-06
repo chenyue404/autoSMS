@@ -1,4 +1,4 @@
-package autosms.cy.autosms.adapter1;
+package autosms.cy.autosms.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;

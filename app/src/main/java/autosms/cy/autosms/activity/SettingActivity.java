@@ -1,4 +1,4 @@
-package autosms.cy.autosms.activity1;
+package autosms.cy.autosms.activity;
 
 /**
  * Created by Xey on 2016/12/12.
