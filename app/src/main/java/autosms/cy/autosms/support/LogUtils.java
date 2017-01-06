@@ -21,7 +21,7 @@ import javax.xml.transform.stream.StreamSource;
  * Created by Xey on 2016/12/7.
  */
 
-public class logUtils {
+public class LogUtils {
         private static String TAG = "ghost";
         private static boolean LOG_DEBUG = true;
         private static final String LINE_SEPARATOR = System.getProperty("line.separator");
