@@ -1,4 +1,4 @@
-package autosms.cy.autosms.activity1;
+package autosms.cy.autosms.activity;
 
 import android.Manifest;
 import android.app.ProgressDialog;
