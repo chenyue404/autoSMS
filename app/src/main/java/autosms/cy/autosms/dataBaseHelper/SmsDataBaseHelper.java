@@ -1,4 +1,4 @@
-package autosms.cy.autosms.dataBaseHelper1;
+package autosms.cy.autosms.dataBaseHelper;
 
 import android.content.Context;
 import android.database.Cursor;

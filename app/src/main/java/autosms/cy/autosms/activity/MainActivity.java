@@ -22,7 +22,7 @@ import java.util.List;
 import autosms.cy.autosms.adapter.MainRecyclerViewAdapter;
 import autosms.cy.autosms.bean.SmsBean;
 import autosms.cy.autosms.bean.SmsListBean;
-import autosms.cy.autosms.dataBaseHelper1.SmsDataBaseHelper;
+import autosms.cy.autosms.dataBaseHelper.SmsDataBaseHelper;
 import autosms.cy.autosms.R;
 
 public class MainActivity extends BaseActivity {
