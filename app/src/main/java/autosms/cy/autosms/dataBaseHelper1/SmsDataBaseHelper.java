@@ -14,8 +14,8 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import autosms.cy.autosms.bean1.SmsBean;
-import autosms.cy.autosms.bean1.SmsListBean;
+import autosms.cy.autosms.bean.SmsBean;
+import autosms.cy.autosms.bean.SmsListBean;
 
 /**
  * Created by chenyue on 2016/9/7 0007.

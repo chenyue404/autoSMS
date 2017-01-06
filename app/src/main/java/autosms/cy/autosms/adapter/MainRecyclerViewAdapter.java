@@ -13,7 +13,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 import autosms.cy.autosms.activity.ChatActivity;
-import autosms.cy.autosms.bean1.SmsListBean;
+import autosms.cy.autosms.bean.SmsListBean;
 import autosms.cy.autosms.R;
 
 /**

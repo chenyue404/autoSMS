@@ -1,4 +1,4 @@
-package autosms.cy.autosms.bean1;
+package autosms.cy.autosms.bean;
 
 import java.io.Serializable;
 import java.util.ArrayList;

@@ -15,8 +15,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 import autosms.cy.autosms.adapter.ChatRecyclerViewAdapter;
-import autosms.cy.autosms.bean1.SmsBean;
-import autosms.cy.autosms.bean1.SmsListBean;
+import autosms.cy.autosms.bean.SmsBean;
+import autosms.cy.autosms.bean.SmsListBean;
 import autosms.cy.autosms.R;
 
 public class ChatActivity extends BaseActivity {

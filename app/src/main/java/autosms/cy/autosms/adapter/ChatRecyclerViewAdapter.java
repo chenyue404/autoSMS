@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import autosms.cy.autosms.bean1.SmsBean;
+import autosms.cy.autosms.bean.SmsBean;
 import autosms.cy.autosms.R;
 
 /**
